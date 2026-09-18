@@ -61,9 +61,7 @@ Generated chains are stored in `outputs/chains/` and figures in `outputs/figures
 The primary result is included in `repo/outputs/figs/unionMCMC.png`, and shows
 the joint posterior distribution: 
 
-\[
-P(\Omega_m,\Omega_\Lambda \mid \mathrm{Union2.1}),
-\]
+P(\Omega_m,\Omega_\Lambda | Union2.1),
 
 including the desired 68% and 95% credible regions and a comparision with the flatness
 condition, among other diagnostics. The `outputs` folder includes some MCMC runs with 
