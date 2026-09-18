@@ -23,3 +23,7 @@ htmlcov/
 .vscode/
 .idea/
 .DS_Store
+
+# Excluding the union2.1 data
+data/union2.1/*
+!data/union2.1/.gitkeep
