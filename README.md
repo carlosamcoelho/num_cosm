@@ -25,31 +25,6 @@ marginalized over the supernova magnitude zero-point, so it was not necessary to
 the zero-point as a nuisance parameter during the MCMC runs. Additionally, Union2.1 is 
 also marginalized for the probability that a SNe event was hosted in a low-mass galaxy.
 
-## Repository structure
-
-repo/
-├── data/
-│   └── union2.1/
-├── notebooks/
-├── outputs/
-│   ├── chains/
-│   └── figs/
-├── src/
-│   └── numcosmo_sne/
-│       ├── cosmology.py
-│       ├── data.py
-│       ├── mcmc.py
-│       └── diagnostics.py
-├── notebooks/
-│   ├── 01_cosmology.ipynb
-│   ├── 02_data.ipynb
-│   ├── 03_mcmc.ipynb
-│   └── 04_diagnostics.ipynb
-└── tests/
-    ├── test_cosmology.py
-    ├── test_data.py
-    └── test_mcmc.py
-
 ## Installation
 
 Create/activate the desired Python environment and install the package in editable mode:
